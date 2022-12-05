@@ -9,7 +9,6 @@ const ingredients = [
 
 
 const listIngredients = document.querySelector("ul");
-console.log(listIngredients);
 ingredients.forEach(function(ingredient, index) {
   ingredient = document.createElement("li");
   ingredient.textContent = ingredients[index];
